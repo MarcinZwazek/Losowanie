@@ -1,0 +1,82 @@
+
+
+.content
+{
+    margin-top: 100px;
+    text-align: center;
+    color: black;
+}
+.header
+{
+	font-family: 'Charmonman', cursive;
+	font-size: 300%;
+}
+
+
+.cyfry
+{
+	width: 3rem;
+	height: 4rem;
+	
+}
+#oval {
+	width: 10px;
+	height: 10px;
+	background-color: black;
+	border-radius: 100%;
+	margin: 40px auto 0;
+}
+#bg-video {
+position: fixed;
+right: 0;
+bottom: 0;
+min-width: 100%;
+min-height: 100%;
+width: auto;
+height: auto;
+z-index: -100;
+}
+#liczby
+{
+    border: 2px red solid;
+    background-color: yellow;
+}
+#submit 
+{
+   
+    padding: 2px;
+    margin: 5px;
+}
+@media (min-width: 576px)
+{
+    font-size:50%;
+    text-align:center;
+    margin:auto;
+
+}
+@media (min-width: 768px)
+{ 
+     font-size:50%;
+}
+@media (min-width: 992px)
+{  
+ font-size:50%;
+}
+@media (min-width: 1200px)
+{  font-size:50%;
+}
+/*
+
+Small (sm) devices (landscape phones, 576px and up)
+
+
+Medium (md) devices (tablets, 768px and up)
+
+
+Large (lg) devices (desktops, 992px and up)
+
+
+Extra (xl) large devices (large desktops, 1200px and up)
+
+*/
+
